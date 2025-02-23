@@ -37,3 +37,27 @@
     color: white;
     border: 2px solid white;
 }
+
+.left-side {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 900px; /* Adjust width as needed */
+    height: 100%;
+    border-right: 2px solid grey; /* Optional: Add a border to the right */
+}
+.right-side {
+position: fixed;
+top: 0;
+right: 0;
+width: 900px;
+/* Adjust width as needed */
+height: 100%;
+border-right: 2px solid grey;
+/* Optional: Add a border to the right */
+}
+
+.Games {
+    background-color: orange
+    
+}
