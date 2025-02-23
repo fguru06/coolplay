@@ -12,52 +12,55 @@
 }
 
 .button1 {
-    font-size: large;
+    font-size: 100px;
     background-color: white;
     color: black;
     border: 2px solid yellow;
 }
 
 .button1:hover {
-    font-size: x-large;
+    font-size: 150px;
     background-color: yellow;
     color: black;
 }
 
 .button2 {
-    font-size: large;
+    font-size: 100px;
     background-color: white;
     color: black;
     border: 2px solid black;
 }
 
 .button2:hover {
-    font-size: x-large;
+    font-size: 150px;
     background-color: black;
     color: white;
     border: 2px solid white;
 }
 
 .left-side {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 900px; /* Adjust width as needed */
+    width: 50%; /* Adjust width as needed */
     height: 100%;
     border-right: 2px solid grey; /* Optional: Add a border to the right */
 }
+
 .right-side {
-position: fixed;
-top: 0;
-right: 0;
-width: 900px;
-/* Adjust width as needed */
-height: 100%;
-border-right: 2px solid grey;
-/* Optional: Add a border to the right */
+    width: 50%; /* Adjust width as needed */
+    height: 100%;
+    border-right: 2px solid grey; /* Optional: Add a border to the right */
 }
 
 .Games {
-    background-color: orange
-    
+    background-color: orange;
+    color: black;
+    font-size: 110px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row; /* Ensure items are displayed in a row */
 }
