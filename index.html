@@ -5,6 +5,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Musa Mediasurf</title>
 		<link rel="stylesheet" href="Styles.css" />
+		<style>
+			html,
+			body {
+				margin: 0;
+				height: 100%;
+				overflow: auto; /* Allow scrolling on the main page */
+			}
+			.container {
+				min-height: 100vh; /* Ensure container takes full viewport height */
+			}
+		</style>
 	</head>
 	<body>
 		<div class="container">
@@ -35,9 +46,9 @@
 				>
 					My Games
 				</button>
-                <button
-                    class="button Games"
-                    onclick="window.open('https://www.youtube.com/channel/UCblJ9BeI8BrWgsNKnj8S8aw', '_blank');"
+				<button
+					class="button Games"
+					onclick="window.open('https://www.youtube.com/channel/UCblJ9BeI8BrWgsNKnj8S8aw', '_blank');"
 				>
 					My Channel
 				</button>
